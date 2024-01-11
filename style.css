@@ -18,6 +18,10 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+h1 {
+  text-align: center;
+}
+
 form {
   max-width: 400px;
   width: 100%;
