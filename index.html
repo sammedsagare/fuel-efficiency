@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fuel Efficiency Calculator</title>
+  </head>
+  <body>
+    <h1>Enter required information</h1>
+    <form id="inputForm">
+      <label for="current">Current Odometer</label>
+      <input type="number" id="current" required />
+
+      <label for="previous">Previous Odometer</label>
+      <input type="number" id="previous" required />
+
+      <label for="fuel">Fuel Consumed</label>
+      <input type="number" id="fuel" required />
+
+      <br />
+
+      <button type="button" class="calc" onclick="calculateMileage()">
+        Calculate Mileage
+      </button>
+    </form>
+
+    <h2 id="result"></h2>
+    <script src="./main.js"></script>
+  </body>
+</html>
